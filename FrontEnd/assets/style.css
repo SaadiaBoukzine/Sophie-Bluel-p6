@@ -209,7 +209,11 @@ footer nav ul {
 		color: rgb(255, 255, 255);
 		}
 	
+<<<<<<< HEAD
 .MotdePasseOublié{
+=======
+	.MotdePasseOublié{
+>>>>>>> 523fca87f47561b3db782fe39cb3e5b383acd196
 		font-family: work Sans ;
 		font-size: normal;
 		font-weight: 500;
@@ -219,6 +223,7 @@ footer nav ul {
 		color: #3d3d3d;
 		margin-left: 165px;
 	}
+<<<<<<< HEAD
 .modal{
   position: fixed;
   display: flex;
@@ -253,6 +258,26 @@ footer nav ul {
 	border-radius: 2px;
 	background: black;
 	color: white;
+=======
+	.modal{
+		position: fixed;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 20%;
+		left: 37%;
+		width: 50%;
+		height: 50%;
+		display: none;
+	}
+.modalVisu{
+	background-color: #ffffff;
+	width: 576px;
+	height: 650px;
+	padding: 40px;
+	overflow: auto;
+	border-radius: 10px;
+>>>>>>> 523fca87f47561b3db782fe39cb3e5b383acd196
 }
 
  .fa {
@@ -286,6 +311,7 @@ footer nav ul {
 }
 #titleModal{
 	font-size: 26px;
+<<<<<<< HEAD
   text-align: center;
   margin: 0px;
 }
@@ -297,6 +323,19 @@ footer nav ul {
   margin: 10px 80px 10px 80px;
   padding-bottom: 4px;
   border-bottom: 1px solid #B3B3B3;
+=======
+	text-align: center;
+	margin:60px 0px 28px 0px
+}
+.galleryModal {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap : 10px ;
+	margin: 10px 80px 135px 80px;
+	padding-bottom: 4px;
+    border-bottom: 1px solid #B3B3B3;
+>>>>>>> 523fca87f47561b3db782fe39cb3e5b383acd196
 }
 .galleryModal img {
 	width: 75px;
@@ -357,7 +396,11 @@ position: relative;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
+<<<<<<< HEAD
 	visibility: hidden;
+=======
+	cursor: pointer;
+>>>>>>> 523fca87f47561b3db782fe39cb3e5b383acd196
 }
 .fa-sharp{
 	color: #B9C5CC;
@@ -489,9 +532,15 @@ select {
   left: 97px;
 }
 .fa-solid{
+<<<<<<< HEAD
   position: relative;
   top: -41px;
   right: 65px;
+=======
+	position: relative;
+  top: -101px;
+  right: 78px;
+>>>>>>> 523fca87f47561b3db782fe39cb3e5b383acd196
   font-size: 24px;
   cursor: pointer;
 }
