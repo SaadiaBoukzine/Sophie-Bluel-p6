@@ -192,7 +192,7 @@ const openModal = function (e) {
 // Crée un bouton "Ajouter un projet"
   const btnAddProject = document.createElement('button');
   btnAddProject.classList.add("ajoutProjet")
-  btnAddProject.textContent = 'Ajouter un projet';
+  btnAddProject.textContent = 'Ajouter une photo';
   // Ajoute un écouteur d'événements pour le clic sur le bouton "Ajouter un projet".
 
   btnAddProject.addEventListener('click',()=>{
@@ -435,7 +435,7 @@ async function fetchDelete(imageId) {
         // Remplit le contenu de la figure avec l'icône de suppression, l'image et un texte d'édition.
     figure.innerHTML = `
      
-        <i class="fa-regular fa-trash-can trash" data-id=${project.id} id="deletePicture"></i>
+        <i class="fa-regular fa-trash-can"></i>" data-id=${project.id} id="deletePicture"></i>
         <img src="${project.imageUrl}"  alt="${project.id}">
         <figcaption>éditer</figcaption>
       

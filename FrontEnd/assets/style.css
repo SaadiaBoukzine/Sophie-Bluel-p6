@@ -244,7 +244,6 @@ footer nav ul {
 
 }
 
-/* .fa-refular{ */
 	#deletePicture{
 	position: absolute;
 	left: 56px;
@@ -257,7 +256,9 @@ footer nav ul {
 
  .fa {
 	margin-left: 55px;
+	margin-right: 10px;
  }
+
  a{
 	text-decoration: inherit;
     color: inherit;
@@ -288,6 +289,9 @@ footer nav ul {
 	font-size: 26px;
   text-align: center;
   margin: 0px;
+  color: #000;
+  font-weight: 400 px;
+  font-family: 'Work Sans';
 }
 .galleryModal {
 	display: flex;
@@ -304,6 +308,7 @@ footer nav ul {
 }
 .galleryModal figcaption {
 	font-size: 12px;
+	visibility: hidden;
 }
 .galleryModal figure {
 	display: flex;
@@ -338,6 +343,8 @@ footer nav ul {
 
 .close{
 	margin-left: 95%;
+	background-color: rgb(255 0 0 / 0%);
+    border: transparent;
 }
 .ajoutProjet{
 width: 237px;

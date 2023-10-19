@@ -17,7 +17,7 @@ let stringPass = inputEmail.value;
 //--------- Evénement click formulaire + check 
 
 submit.addEventListener('click', (e) => {
-    console.log('je passe là ?')
+    // console.log('je passe là ?')
    // empêche le comportement par défaut du formulaire//
     e.preventDefault();
     //recuperation des valeur de l'indentification stocker dans (inputPassword et inputEmail)
